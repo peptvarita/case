@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Image Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 header_div">
+        <h2>Case studies
+        </h2>          
+      </div>
+    </center>
+    <center>  
+<ol>  
+    <div class="text_images_and_result">
+        <li>
+<b>Test Image 1</b>
+<img src="clock.jpg"class="clock">
+        </li>
+        <h5>Output on Google Lens:<span>Digital CLOCK</span></h5>
+        <h5>Output on Mobilenet Project:<span>digital CLOCK </span></h5>
+<div class="mini_result">
+
+    <h4>Result: Both gave the right answer</h4><hr>
+
+    <br><br>
+    <li>
+      <b>Test Image 2</b>
+      <img src="dustbin.jpg"class="dustbin">
+              </li>
+              <h5>Output on google lens:<span>dustbin</span></h5>
+              <h5>Output on Mobilenet Project:<span> water bottel</span></h5>
+      <div class="mini_result">
+      
+          <h4>Result: Google is more accurate</h4><hr>
+        
+          <br><br>
+          <li>
+            <b>Test Image 3</b>
+            <img src="kindel.jpg"class="kindel">
+                    </li>
+                    <h5>Output on google lens:<span> Kindle</span></h5>
+                    <h5>Output on Mobilenet Project:<span>i-pod </span></h5>
+            <div class="mini_result">
+            
+                <h4>Result: Google lens is more accurate</h4><hr>
+                
+                <br><br>
+                <li>
+                  <b>Test Image 4</b>
+                  <img src="watch.jpg"class="watch">
+                          </li>
+                          <h5>Output on google lens:<span>Watch</span></h5>
+                          <h5>Output on Mobilenet Project:<span> analog clock</span></h5>
+                  <div class="mini_result">
+                  
+ <h4>Result: Google lens is more accurate</h4><hr>
+
+</div>
+<h4> Out Of five Objects Google Lens was accurate most of the times  </h4>
+    </div> 
+  </ol>
+  </center>
+  <hr>
+  <div id="footer">Developed by - Miss Tvarita $.$ </div>
+
